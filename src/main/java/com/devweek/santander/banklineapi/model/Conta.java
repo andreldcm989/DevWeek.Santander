@@ -1,5 +1,8 @@
 package com.devweek.santander.banklineapi.model;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Conta {
 
     private Long numero;
